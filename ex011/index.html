@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5:5></title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou 
+        simplesmente aumente ou dominiua o tamanho do seu navegador.</p>
+        
+        <!-- -- >
+        esse código abaixo serve para ter base para qual tipo de imagem usar em cada aparelho, imagens sendo:
+        - pequenas:para celular/smartphone;
+        - médias: para tablets ou notbooks pequenas de 10 pelegadas;
+        - grandes: para computadores, televisores, notebooks normais.
+        <\!-- -->
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+    <h1>Reproduzindo Aúdio em MP3 com HTML5</h1>
+    <p>reproduzindo audio em html5</p>
+    <audio src="midia/Read_All_Over - Nathan Moore.mp3" controls autoplay preload="none"></audio>
+    <audio preload="metadata">
+       <!-- <source src="midia/Read_All_Over - Nathan Moore.mp3" type="audio/mpeg"></audio> </-->
+       <!--no caso esse ultimo código não funcionou-->
+    </audio>
+</body>
+</html>

@@ -1,0 +1,63 @@
+/* 
+tudo que é ID em CSS é representado por [#]- somente um elenco
+tudo que é Class em CSS é representado por [.]- pode ter vários elementos.
+*/
+
+body{
+    background-image: linear-gradient(to right, rgb(200, 236, 200),
+     rgb(176, 238, 176), rgb(150, 243, 150), 
+     rgb(134, 223, 134), rgb(144, 224, 144));
+    text-align: justify;
+
+
+}
+
+h1 {
+   
+    text-decoration: none;
+    border-color: blue;
+    box-shadow: rgb(7, 20, 82);
+    font-style: italic;
+
+   
+    
+}
+
+h1#principal {
+    text-align: center;
+   
+    background-image: linear-gradient(to right, rgb(3, 58, 3), rgb(4, 71, 4));
+    color: antiquewhite;
+
+}
+
+p {
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.basico{
+color: rgb(69, 175, 69);
+font-weight: bolder;
+
+
+}
+
+.intermediario {
+color: rgb(165, 165, 53);
+font-weight: bolder;
+}
+
+.avancado{
+color: rgb(136, 48, 48);
+font-weight: bolder;
+}
+
+.destaque {
+    background-color: #99cd32ad;
+}
+
+span {
+    background-color: green;
+}
+
