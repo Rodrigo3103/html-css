@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:dimgray;
+}
+header{
+    background-color: white;
+    padding: 10px ;
+    margin: 10px;
+}
+
+nav {
+    background-color: rgb(105, 103, 103);
+    padding: 3px;
+    box-shadow: 5px 3px 7px 1px rgba(0,0,0,0.493) ;
+}
+
+nav:hover{
+    background-color: rgb(73, 73, 102);
+    
+
+}
+
+nav> a {
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    
+}
+
+nav> a:hover{
+    text-decoration: underline;
+    color:goldenrod;
+    
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px 40px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.692);
+   
+}
+
+article
+{
+    background-color: darkgray;
+}
+
+article>aside {
+    background-color: rgb(68, 68, 68);
+}
+
+aside>:hover{
+    background-color: goldenrod;
+    color: rgb(11, 15, 70);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif 
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin: 0px;
+}
+
+section#assuntos >p {
+    
+    display:inline;
+    color:rgb(32, 32, 37);
+}
+
+footer >p {
+    margin: 4px;
+    font-style: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+   
+}
+
+h1{
+    box-shadow: 2px 1px 14px 6px rgba(0, 0, 0, 0.5);
+    
+}
+
+div#bola {
+    height:100px;
+    width: 100px;
+    margin: 10px;
+    background-color: rgb(240, 230, 230);
+    border-radius: 50px;
+}

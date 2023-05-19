@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'work sans', Arial, Helvetica;
+    font-size:1em ;
+    font-weight:normal;
+    font-style: italic;
+    position:initial;
+    background-image: linear-gradient(to right, #97afce, #a1bbdd);
+    
+    
+
+
+    /*  
+    Medidas Absolutas:
+    cm, mm, in, px, pt, pc
+
+    Medidas Relativas:
+    em, ex, rem, vw, vh, %
+    
+    fontes com shorthend:
+    font:italic bolder 3em 'work sans', sans-serif;
+    
+    */
+
+    
+   
+
+}
+
+
+h1, h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    
+}
+
+h1{
+
+    font-size: 3em;
+   
+    text-align: center;
+   
+}
+
+h2{
+    text-align:center;
+    text-decoration: underline;
+    text-transform: none;
+}
+ p{
+    text-align: justify;
+    text-indent: 30px;
+ }
+
+main {
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 10px;
+    width: 1080px;
+    padding: auto;
+    margin: auto;
+    box-shadow: 5px, 5px, 60px rgba(241, 6, 6, 0.082);
+    text-align: justify;
+    align-self: flex-start;
+    
+   
+   
+    
+}
