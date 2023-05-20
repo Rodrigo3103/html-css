@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+body {
+    height: 98vh;
+    border: 1px dashed black;
+    background-image: url('imagens/mascote.png');
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: center; /*sempre vai vir primeiro a coluna antes da linha*/
+    /*background-position: left; /* alinhada a esquerda ao meio*/
+    /*background-position: right;/* alinhada a direita ao meio*/
+    /*background-position: top; /* alinhada em cima ao meio*/
+    /*background-position: bottom; /* alinhada em baixo ao meio*/
+    /*background-position: top left; /* alinha em cima e a esquerda */
+    /*background-position: top center; /*aliha em cima e ao meio*/
+    /*background-position: top right; /*alinha em cima e a direita*/
+    /*background-position: center left; /*aliha no meio e a esquerda*/
+    /*background-position: center center; /*alinha no centro absoluto*/
+    /*background-position: center right; /*alinha no centro e a direita*/
+    /*background-position: bottom left; /*alinha em baixo e a esquerda*/
+    /*background-position: bottom center; /*alinha em baixo e o centro */
+    /*background-position: bottom right; /*alinha em baixo e a direita*/
+    
+}

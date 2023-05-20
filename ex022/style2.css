@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+body {
+    background-image: url('imagens/mascote.png');
+    background-size: 100px 100px;
+    /**/
+    background-repeat: repeat; /*repetição normal*/
+    /*background-repeat: no-repeat; /*não faz nenhuma repetição*/
+    /*background-repeat: repeat-y; /*repetição em Y na vertical*/
+    /*background-repeat: repeat-x; /*repetição em X na horizontal*/
+}

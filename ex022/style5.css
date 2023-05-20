@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+body{
+    height: 98vh;
+    background-image: url('imagens/wallpaper003.jpg');
+    background-position: center center; /*independente do tamanho da janela, a imgame fica de acordo com essa configuração*/
+    background-size: 1920px 1200px;
+    background-repeat: no-repeat;
+}
