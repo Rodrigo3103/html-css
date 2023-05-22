@@ -1,20 +1,36 @@
 @charset "utf-8";
 
 body {
-    height: 100vh;
+    /*height: 100vh;
     background-color: black;
     background-image: url('imagens/wallpaper002.jpg');
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-size: cover; /*ele te ocupa 100% da viewport, ou sejá ele adapta aquilo que estamos venda no site.*/
-    background-attachment: fixed; /*esse comando "attachement" é muito interessamnte, pois possibilita o fundo ficar imovel mesmo que a tela desça ou suba, que ela role.*/
+    background-size: 100% 100%;  /*100 horizontal, 100 vertical*/
+    /*background-size: cover; /*ele te ocupa 100% da viewport, ou sejá ele adapta aquilo que estamos vendo no site.*/
+    /*background-attachment: fixed; /*esse comando "attachement" é muito interessamnte, pois possibilita o fundo ficar imovel mesmo que a tela desça ou suba, que ela role.*/
+
+        /*
+        shorthand - background
+        color> image> position repeat >[size]
+        >attachment
+    
+    */
+
+    /*TESTE COM SHORHAND*/
+    
+    background: black url('imagens/wallpaper002.jpg') center center no-repeat  fixed;
+    background-size: cover; /* o size até o momento não está funcionando o size */
+    
+    /*FIM DO SHORTHAND*/
 
 }
 
+
+
 main {
     background-color: white;
-    width:400px;
+    max-width:400px;
     padding: 10px;
     margin: auto;
     border: 3px solid darkblue;
