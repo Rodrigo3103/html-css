@@ -4,7 +4,6 @@ body {
     height: 98vh;
     border: 1px dashed black;
     background-image: url('imagens/mascote.png');
-    background-size: 100px 100px;
     background-repeat: no-repeat;
     background-position: center; /*sempre vai vir primeiro a coluna antes da linha*/
     /*background-position: left; /* alinhada a esquerda ao meio*/

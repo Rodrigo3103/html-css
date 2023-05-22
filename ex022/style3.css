@@ -17,16 +17,24 @@ div.bloco {
 
 div#q1 {
     background-position: left top;
+    margin-bottom: 40px;
+    padding: 40px;
 }
 
 div#q2 {
     background-position: left center;
+    margin-bottom: 40px;
+    padding: 40px;
 }
 
 div#q3 {
     background-position: right bottom;
+    margin-bottom: 40px;
+    padding: 40px;
 }
 
 div#q4 {
     background-position: center center;
+    margin-bottom: 40px;
+    padding: 50px;
 }
