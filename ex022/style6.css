@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+body {
+    height: 100vh;
+    background-color: black;
+    background-image: url('imagens/wallpaper002.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-size: cover; /*ele te ocupa 100% da viewport, ou sejá ele adapta aquilo que estamos venda no site.*/
+    background-attachment: fixed; /*esse comando "attachement" é muito interessamnte, pois possibilita o fundo ficar imovel mesmo que a tela desça ou suba, que ela role.*/
+
+}
+
+main {
+    background-color: white;
+    width:400px;
+    padding: 10px;
+    margin: auto;
+    border: 3px solid darkblue;
+    border-radius: 15px;
+    
+}
