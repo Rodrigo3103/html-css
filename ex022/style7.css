@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+#container {
+    position: relative; /*Por padrão do posicionamento é relativo*/
+    background-image: url('imagens/target001.png');
+    background-size: 100% 100%;
+    height:500px;
+    padding: 10px;
+    background-color: purple;
+    
+
+}
+
+#conteudo {
+    background-image: url('imagens/target001.png');
+    background-size: 100% 100%;
+    position: absolute; /*ocupa todo o espaço*/
+    height: 200px;
+    width: 400px;
+    background-color: yellow;
+    
+    /*/left: 100px; /*significa que a distancia do objeto até a margem da /*esquerda é de 100px*/
+    /*top: 200;   /*significa que a distancia do objeto até o topo é de 200px*/
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); /*o primeiro numero move o objeto na horizontal e o segundo numero se move na vertical*/
+
+    /*dica: a caixa que vai ficar por fora fica sempre no position: relative e as demais no posicionamento absolute.*/
+    
+
+}
+
+/*#conteudo:hover { 
+    transform: translate(-100%, -100%);
+    border: 1px solid blue;
+    width: 300px;
+
+}*/
