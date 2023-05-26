@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 400px;
+    height: 400px;
+    border-collapse: separate; /*função pra separar as celulas da coluna*/
+    border: 2px solid black;
+    
+}
+
+tr.linha {
+    background-color: gray;
+}
+
+td {
+    border:  1px solid black;
+    padding: 10px;
+    text-align: center; /*alinhamento vertical*/
+    vertical-align: middle; /*center em alinhamento vertical e middle*/
+    
+    
+   
+}
+
+td:hover {
+    background-color: rgba(184, 181, 1, 0.822);
+    transition: ease-in-out 0.5s;
+    
+}
+
+td.dado:hover {
+    background-color: greenyellow;
+    
+
+}
+
+.numeros {
+    text-align: right;
+}
