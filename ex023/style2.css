@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+table {
+    width: 500px;
+    position: relative;
+}
+
+td,th {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+thead {
+    background-color: rgb(36, 36, 36);
+    color: white;
+
+}
+
+thead > tr >th {
+    position: sticky; /*faço meu text ficar grudado na tela, quando rolo a tela o texto que ficou grudado vem junto*/
+    top: -1px;
+    background-color: rgb(36, 36, 36); ;
+}
+
+tfoot>tr {
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+
+td.num {
+    text-align: right;
+}
+
+caption {
+    font-size: 1.5em;
+    font-weight: bolder;
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+tbody > tr:nth-child(2n) { /*aqui temos um pseudoclasse pra fazer efeito zebrado, o 2n siginifica em 2 em 2 linhas.. ou colocando odd, pegará apenas as linhas ímpar ou iven que é par*/
+    background-color: lightgray;
+}
+
+tbody > tr:nth-child(odd):hover { /*Com isso colocamos o efeito zebrado.*/
+    background-color: lightskyblue;
+}
