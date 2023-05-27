@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    background-color: lightblue;
+}
+
+table {
+    border: 1px solid black;
+    text-align: center;
+    border-collapse: separate;
+}
+
+td {
+    padding: 15px;
+    border: 1px solid blue;
+
+}
+
+td:hover{
+    background-color: lightgreen;
+    text-shadow: inset  5px 3px 3px rgb(254, 254, 255);
+    padding: 20px;
+    
+}
+
+table.tabela02 {
+    text-transform: uppercase;
+}
