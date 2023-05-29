@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+body {
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+    
+}
+
+th {
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 15px;
+    background-color: rgb(102, 101, 101);
+    color: white;
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+}
+ .exatas, .humanas {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+ }
+
+ .media {
+    text-align: left;
+    max-height: 10px;
+ }
+
+ caption {
+    font-weight: lighter;
+    margin:10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 50vh;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-shadow: 5px 0px 5px white;
+    align-content: baseline;
+ }
+
+ caption:hover {
+    font-weight: lighter;
+    margin:10px;
+    padding: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    width: 50vh;
+    background-color: rgba(2, 150, 113, 0.712);
+    color: white;
+    text-shadow: 5px 0px 5px rgb(0, 0, 0);
+    cursor: pointer;
+ }
+
+ 
