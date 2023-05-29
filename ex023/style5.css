@@ -2,6 +2,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(7, 16, 99, 0.486);
 
 }
 
@@ -26,7 +27,7 @@ th, td {
 }
 
 col.cnome {
-    background-color: chartreuse;
+    background-color: rgb(60, 121, 0);
 }
 
 col.csexo {
@@ -34,9 +35,9 @@ col.csexo {
 }
 
 .cgrupo {
-    background-color: red;
+    background-color: rgb(95, 29, 29);
 }
 
 .cprof {
-    background-color: blue;
+    background-color: rgba(4, 4, 43, 0.418);
 }
