@@ -1,0 +1,12 @@
+<body>
+    <a href="#" onclick="clicou()">Clique em mim</a>
+    <div id="saida"></div>
+
+    <script>
+        function clicou() {
+            s = window.document.getElementById("saida")
+            s.innerHTML += '<p> você Clicou</p>'
+        }
+    </script>
+    
+</body>
