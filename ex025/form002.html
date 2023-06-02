@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 02</title>
+</head>
+<body>
+    <h1>Teste de Formulário</h1>
+    <form action="cadastro.php" method="POST" autocomplete="on">
+        <p>
+            <label for="iusu" >Usuário: </label>
+            <input type="text" name="usu" id="iusu" required minlength="5" maxlength="15" placeholder="Digite o Usuário" autocomplete="username">
+            <!--minlenght="5" minino de letras, maxlenght="15" o máximo de 15 letras.-->
+        </p>
+
+        <p>
+            <label for="isen">Senha: </label>
+            <input type="password" name="sen" id="isen" minlength="8" maxlength="15" size="22" placeholder="Digite a Senha" autocomplete="current-password">
+            <!--placeholder="Entrar" serve como uma mensagem que quando o usuario digita a primeira letra, a mensagem do placeholder some.-->
+
+            <!--autocomplete="current-password" quer dizer password atual-->
+
+        </p>
+        <P>
+            <input type="submit" value="Enviar" placeholder="Entrar">
+            <input type="reset" value="Limpar" >
+        </P>
+
+    </form>
+    
+</body>
+</html>
