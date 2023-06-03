@@ -7,6 +7,76 @@
     <title>Formulário 07</title>
 </head>
 <body>
+    <form action="cadastro.php" method="get" autocomplete="on">
+
+        <fieldset>
+            <!--------OPtion---------->
+            <legend>Estados</legend>
+            <p>
+                <label for="iest">Estado: </label>
+                <select name="estado" id="iest">
+                    <option value="" selected>---Escolha---</option>
+                    <optgroup label="Região Sudeste">
+                        <option value="SP">São Paulo</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="ES">Espirito Santo</option>
+                    </optgroup>
+
+                    <optgroup label="Regiao Centro-Oeste">
+                        <option value="DF">Distrito Federal</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                    </optgroup>
+                    <!--Selected já deixa a escolha pré selecionada-->
+                </select>
+            </p>
+            <!-------------------------->
+        </fieldset>
+        
+
+        <fieldset>
+            <legend>Profissão</legend>
+                <!--------datalist---------->
+                <p>
+                    <label for="iprof">Profissão: </label>
+                    <input type="text" name="prof" id="iprof" list="lstprof">
+                    <datalist id="lstprof">
+                        <option value="ADM">Administrador</option>
+                        <option value="CONT">Contabilista</option>
+                        <option value="DEV">Desenvolvedor</option>
+                        <option value="PROF">Professor</option>
+                    </datalist>
+                    <!--no caso de datalist, serve pra colocar a profissão que as vezes não estavam na caixa de seleção-->
+                </p>
+                <!-------------------------->
+        </fieldset>
+
+        <fieldset>
+            <legend>Textarea</legend>
+    
+                <!--------textarea---------->
+    
+                <p>
+                    <label for="imsg">Mensagem:</label>
+                    <textarea name="msg" id="imsg" cols="30" rows="10" minlength="10" maxlength="100" placeholder="digite sua mensagem
+                    "></textarea>
+                </p>
+    
+                <p>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Resetar">
+                </p>
+                <!--Lembrando que é meçhor usar o método POST que não tem limitação de 3000 bytes-->
+    
+                <!-------------------------->
+        </fieldset>
+    
+
+
+
+    </form>
     
 </body>
 </html>
