@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 05</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário.</h1>
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="isexomas" checked value="M">Masculino <br> <!--checked deixa pre-configurado um campo só-->
+            <!--Value serve pra prerificar no cabeçalho qual foi o sexo que foi marcado.-->
+            <input type="radio" name="sexo" id="isexofem" value="F">Feminino <br>
+            <input type="radio" name="sexo" id="isexoout" value="O">Outros</input>
+            <!--no caso do Radios, os campos tem que ter o mesmo name para a bolinha ficar em algum deles-->
+        </fieldset>
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+            
+            <input type="checkbox" name="esbas" id="iesbas"><label for="iesbas">Basquete</label> <br>
+            <input type="checkbox" name="esfut" id="iesfut" checked><label for="iesfut">Futebol</label> <br>
+            <input type="checkbox" name="esnat" id="iesnat"><label for="iesnat">Natação</label> <br>
+            <input type="checkbox" name="esten" id="iesten"><label for="iesten">Tênis</label> <br>
+            
+        </fieldset>
+
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Resetar">
+        </p>
+
+    </form>
+    
+</body>
+</html>
