@@ -8,6 +8,34 @@
 </head>
 <body>
     <h1>Exemplo de Formulário.</h1>
+    <form action="cadastro.php" method="get">
+        <fieldset> <!--Faz o Campo de agrupamento-->
+            <legend>Dados pessoais</legend> <!--Serve para colocar o cabeçalho do campo de agrupamento.-->
+            <p>
+                <label for="inome">Nome: </label>
+                <input type="text" name="nome" id="inome" required autocomplete="name" minlength="5" maxlength="20">
+            </p>
+            <p>
+                <label for="iemail">E-mail: </label>
+                <input type="email" name="email" id="iemail" autocomplete="email" required>
+            </p>
+
+            <p>
+                <label for="itelefone">Telefone: </label>
+                <input type="tel" name="telefone" id="itelefone" autocomplete="tel" required pattern="^\(\d{2}\)\d{4,5}-\d{4}$" placeholder="(xx)xxxx-xxxx">
+                <!--required pattern="^[0-9]{4}-[0-9]{4}$" serve para configurar entrada de números.-->
+                <!--ou-->
+                <!--^\(\d{2}\)\d{4,5}-\d{4}$-->
+            </p>
+            <!--Estudar mais sobre RegEx-->
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Resetar">
+            </p>
+    </fieldset>
+
+
+    </form>
     
 </body>
 </html>
