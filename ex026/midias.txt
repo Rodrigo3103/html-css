@@ -1,0 +1,12 @@
+midia query = midia type + midia features.
+
+midia type = tipo da midia
+
+midia features = caracteristica da midia
+
+quando eu utilizar midia query, posso usar ela pra vários formatos de tela.
+midia types posso escrever normal, porém midia features, tenho que escrever entre parênteses.
+
+exemplos:
+	mida type = screen, impressoras
+	midia features = screen (orientation: landscape).
