@@ -1,12 +1,12 @@
-midia query = midia type + midia features.
+meia query = media type + media features.
 
-midia type = tipo da midia
+meia type = tipo da media
 
-midia features = caracteristica da midia
+midia features = caracteristica da media
 
-quando eu utilizar midia query, posso usar ela pra vários formatos de tela.
-midia types posso escrever normal, porém midia features, tenho que escrever entre parênteses.
+quando eu utilizar media query, posso usar ela pra vários formatos de tela.
+media types posso escrever normal, porém media features, tenho que escrever entre parênteses.
 
 exemplos:
-	mida type = screen, impressoras
-	midia features = screen (orientation: landscape).
+	meda type = screen, impressoras
+	media features = screen (orientation: landscape).
