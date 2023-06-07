@@ -13,6 +13,7 @@
 
 
 
+
 @media print { /*IMPRESSÃO*/
     * {
         font-family: 'Courier New', Courier, monospace;
@@ -58,7 +59,7 @@
 
 }
 
-@media screen and (min-width: 993px) and (max-width:1200px) { /*DESKTOP*/
+@media screen and (min-width: 1025px) and (max-width:1200px) { /*DESKTOP*/
     
     body {
         background-image: url(../imagens/back-pc.jpg);
@@ -71,7 +72,7 @@
 
 }
 
-@media screen and (min-width:1200px){ /*GRANDES TELAS*/
+@media screen and (min-width:1201px){ /*GRANDES TELAS*/
     body {
         background-image: url(../imagens/back-tv.jpg);
         
