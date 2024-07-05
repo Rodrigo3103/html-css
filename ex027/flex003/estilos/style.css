@@ -1,0 +1,17 @@
+div.container {
+    background-color: lightsalmon;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*o flex-wrap e o flex-direction pode ser substituído pela flex-flow*/
+    flex-flow: row wrap;
+}
+
+div.item {
+    background-color: lightblue;
+    border: 1px solid black;
+    text-align: center;
+    flex: auto; /*o flex auto, faz com que o conteudo filho ocupe 100% a largura do pai.*/
+    
+    
+}

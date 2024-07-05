@@ -1,7 +1,8 @@
 .container {
     background-color: lightsalmon;
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
+    flex-direction: column-reverse;
 }
 
 .item {
