@@ -1,0 +1,39 @@
+div.container {
+    background-color: lightsalmon;
+    display: flex;
+    /*flex-direction: row;
+    flex-wrap: wrap;*/
+    /*o flex-wrap e o flex-direction pode ser substituído pela flex-flow*/
+    flex-flow: row wrap; 
+    /*todo no justify-content as configurações é sempre nos eixos principais- (main exis)*/
+    /*justify-content: flex-start;   - os espaços em branco ficam ao final*/
+    /*justify-content: flex-end; - os espaços em brancos ficam ao final*/ 
+    /*justify-content: center; - joga os itens centralizados ao meio */
+    /*justify-content: space-between;  - os itens filhos ficam separados e iguais em seus espaços*/
+    /*justify-content: space-evelyn; - os itens tem espaços e são centralizados mais ao meio*/
+    /*justify-content: space-around; - ele divide o container em espaços iguais e os dividem de maneira iguais*/
+
+    justify-content: space-around;
+
+     /*todo no justify-itens refere-se ao eixo transversal (cross-axis) -*/
+     /*align-items: stretch; - estica a linha*/
+
+     /*-items: flex-end; - no inicio */
+
+     /*align-items: flex-end; - no final*/
+
+     height: 100px; /*pra trabalhar*/
+     align-items: center;
+    
+}
+
+div.item {
+    background-color: lightblue;
+    border: 1px solid black;
+    text-align: center;
+    
+    /*flex: auto; /*o flex auto, faz com que o conteudo filho ocupe 100% a largura do pai. - caso insira isso, tanto faz utilizar ojustify-content no pai*/
+    
+    
+    
+}
