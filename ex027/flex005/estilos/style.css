@@ -24,7 +24,15 @@ main {
 
 section {
     background-color: lightseagreen;
-    height: 200px;
-    width: 200px;
+    height: 50vh;
+    width: 50vw;
+    border-radius: 15px;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    display: flex;
 }
