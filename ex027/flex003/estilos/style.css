@@ -1,17 +1,24 @@
 div.container {
     background-color: lightsalmon;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    /*flex-direction: row;
+    flex-wrap: wrap;*/
     /*o flex-wrap e o flex-direction pode ser substituído pela flex-flow*/
-    flex-flow: row wrap;
+    flex-flow: row wrap; 
+    /*justify-content: flex-start;   - os espaços em branco ficam ao final*/
+    /*justify-content: flex-end; - os espaços em brancos ficam ao final*/ 
+    /*justify-content: center; - joga os itens centralizados ao meio */
+    /*justify-content: space-between;  - os itens filhos ficam separados e iguais em seus espaços*/
+    /*justify-content: space-evelyn; - os itens tem espaços e são centralizados mais ao meio*/
+    /*justify-content: space-around; - ele divide o container em espaços iguais e os dividem de maneira iguais*/
+    
 }
 
 div.item {
     background-color: lightblue;
     border: 1px solid black;
     text-align: center;
-    flex: auto; /*o flex auto, faz com que o conteudo filho ocupe 100% a largura do pai.*/
+    /*flex: auto; /*o flex auto, faz com que o conteudo filh o ocupe 100% a largura do pai.*/
     
     
 }
