@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    padding: 30px;
+}
+body {
+    background-color: bisque;
+
+}
+
+.container {
+    flex-direction: row;
+    background-color: lightsalmon;
+    display: flex;
+    flex-flow: row nowrap;
+
+
+
+    
+}
+
+.item {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: lightskyblue;
+    border: 1px solid black;
+    text-align: center;
+    flex-basis: 200px;  
+    
+
+}
+ 
+#cxA {
+    flex-shrink: 0;
+    flex-grow: 0;
+
+}
+
+#cxB {
+    flex-shrink: 4;
+    flex-grow: 1;
+}
+
+#cxC {
+    flex-shrink: 1;
+    flex-grow: 0;
+}
+
+#cxD {
+    flex-grow: 3;
+    flex-shrink: 0;
+}

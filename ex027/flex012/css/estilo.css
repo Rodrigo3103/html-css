@@ -1,0 +1,33 @@
+@charset  'utf8';
+
+/*Todo: a sequencia do flex é flex-Grow, flex-shirik e flex-Basics*/
+
+body {''
+    background-color: antiquewhite;
+
+}
+
+section.principal{
+    display: flex;
+    background-color: lightseagreen;
+    border-radius: 2px;
+    padding: 20px;
+}
+
+.item {
+    border: 2px solid greenyellow;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#item01 {
+    flex: 1 0 150px;
+}
+
+#item02 {
+    flex: 1 1 150px;
+}
+
+#item03 {
+    flex: 0 0 150px;
+}

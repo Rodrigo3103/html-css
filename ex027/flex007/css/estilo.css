@@ -1,0 +1,60 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: bisque;
+
+}
+
+.Container {
+    flex-direction: row;
+    background-color: lightsalmon;
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 15px;
+    margin: 5px;
+    height: 400px;
+    align-items: flex-start;
+
+
+    
+}
+
+.Item {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;    
+    background-color: rgb(103, 132, 165);
+    align-self: center;
+    
+
+}
+ 
+/* flex itens align self */
+
+#d{
+    align-self: flex-end;
+}
+
+#a{
+    align-self: flex-start;
+}
+
+#b{
+    align-self: center;
+}
+
+#c{
+    align-self: flex-end;
+}
+
+#g {
+    align-self: stretch;
+}
+

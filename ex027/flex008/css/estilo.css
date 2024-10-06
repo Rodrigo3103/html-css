@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: bisque;
+
+}
+
+.Container {
+    flex-direction: row;
+    background-color: lightsalmon;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 15px;
+    margin: 5px;
+    height: 400px;
+        
+}
+
+.Item {
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;    
+    background-color: rgb(103, 132, 165);
+    align-self: flex-start;
+    flex-basis: 150px;
+
+}
+ 
+/* flex basics*/
+
+
+#a{
+   
+   flex-wrap: wrap;
+}
+

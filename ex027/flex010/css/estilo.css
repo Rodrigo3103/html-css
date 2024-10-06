@@ -1,0 +1,97 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.Container {
+    background-color: lightsalmon;
+    display: flex;
+    flex-flow: row nowrap;
+    width: 95vw;
+    
+   
+
+        
+}
+
+.Item {
+    background-color: lightskyblue;
+    border: 1px solid black;
+    margin: 1px;
+    flex-basis: 250px;
+    flex-shrink: 1; /*1 é ligado e 0 é desligado - em relação a diminuição*/
+    flex-grow: 1; /*1 é ligado e 0 é desligado - em relação ao aumento*/
+
+    /*Flex-Basics: é o tamanho dos objetos filhos*/
+    /*Flex-shirik: é a relação de dimuição dos elementos filhos*/
+    /*Flex-Grow: é a relação ao aumentos dos elementos filhos*/
+   
+ 
+}
+ 
+
+/* flex grow shirik, sendo grow o quanto pode crescer e o shirik é o quanto pode encolher */
+
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    justify-content: space-around;
+    width: 250vw;
+    align-items: center;
+
+
+}
+
+.div01, .div02, .div03 {
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    padding: 50px;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+
+}
+
+.item {
+    border: 3px solid gold;
+    margin: 10px;
+    width: 100px;
+}
+
+.div01 {
+    flex-basis: 150px;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+
+
+.div02 {
+    flex-basis: 150px;
+    flex-grow: 2;
+    flex-shrink: 0;
+}
+
+.div03 {
+    flex-basis: 150px;
+    flex-grow: 1;
+    flex-shrink: 2;
+}
+
+/*referente aos exercícios*/
+
