@@ -2,7 +2,7 @@
 
 /*Todo: a sequencia do flex é flex-Grow, flex-shirik e flex-Basics*/
 
-body {''
+body {
     background-color: antiquewhite;
 
 }
@@ -18,6 +18,8 @@ section.principal{
     border: 2px solid greenyellow;
     margin: 5px;
     border-radius: 5px;
+    text-align: center;
+    font:caption;
 }
 
 #item01 {
@@ -31,3 +33,88 @@ section.principal{
 #item03 {
     flex: 0 0 150px;
 }
+
+/*referente a divisão secundaria*/
+
+section.secundario {
+    display: flex;
+    background-color: lightblue;
+    border-radius: 2.5px;
+    
+    margin: 5.5px;
+}
+
+#item04 {
+    flex: 2 0 150px
+}
+
+#item05 {
+    flex: 0 1 150px;
+}
+
+#item06{
+    flex: 2 0 150px;
+
+}
+
+/*flex: 0 1 auto ou flex: initial é a configuração padrão do sistema*/
+
+section.terciario {
+    display: flex;
+    background-color: blueviolet;
+    border-radius: 5px;
+    margin: 5.0;
+}
+
+#item07 {
+    flex: 0 1 auto
+}
+
+#item08 {
+    flex: initial
+
+}
+
+#item09 {
+    flex: inherit;
+}
+
+/*flex: 0 0 auto ou flex:None é deixar os elementos não flexiveis, ou seja, fica a configuração padrão.*/
+
+section.quarterizado {
+    display: flex;
+    background-color: chocolate;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 10px;  
+    
+     
+}
+
+#item10 {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    flex: 0 0 auto;
+    margin: 5px;
+}
+
+#item11 {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    flex: none;
+    margin: 5px;
+}
+
+#item12 {
+    border: 2px solid skyblue;
+    border-radius: 12px;
+    padding: 22px;
+    flex: 1 1 150px;
+    margin: 5px;
+    
+}
+
+/*obsercvação: se eu criar um div com as seguintes configurações flex: 1 , apenas com um elemento, isso fica apenas configurado com o flex flex-grow, o restante fica padronizado. */
+
