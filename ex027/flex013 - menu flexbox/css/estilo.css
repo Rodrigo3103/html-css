@@ -1,4 +1,4 @@
-@charset  'utf-8';
+@charset  "utf-8";
 
 *{
     margin: 0px;
@@ -20,30 +20,54 @@ header {
     background-color: gray;
     color: white;
     padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px  solid dodgerblue;
 
 }
 
 header>h1 {
     padding: 10px 0;
     border: 1px dotted black;
+    flex: 0 0 200px;
 }
 
 header > nav {
-    border: 1px dotted black;
-}
-
-nav {
     cursor: pointer;
-   
+    border: 1px dotted black;
+
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    
+    
 }
 
-nav> a {
+
+
+header > nav > a {
     text-decoration: none;
-    color: black;
+    background-color: black;
+    color: white;
     text-align: center;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
 
+    
 }
 
+header > nav > a:hover {
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    font-family:sans-serif;
+    transition: background-color 0.5s;
+    transition: ease-in-out 0.5s;
+}
 main > p{
     text-align: justify;
     background-color: white;
@@ -51,5 +75,13 @@ main > p{
     padding: 10px;
     border-radius: 10px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.336);
+    
 
 }
+
+/*Media Screen*/
+
+
+    
+
+
